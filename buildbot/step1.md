@@ -7,24 +7,6 @@ This tutorial however assumes that you are running Ubuntu. Therefore you can ins
 Followed by `sudo apt-get install docker-ce docker-ce-cli containerd.io`{{execute HOST1}}
 
 `cat << "EOF" 
-       _,.
-     ,`` -.)
-    '( _/'-\\-.               
-   /,|``--._,-^|            ,     
-   \_| |``-._/||          ,'|       
-     |  ``-, / |         /  /      
-     |     || |        /  /       
-      ``r-._||/   __   /  /  
-  __,-<_     )``-/  ``./  /
- '  \   ``---'   \   /  / 
-     |           |./  /  
-     /           //  /     
- \_/' \         |/  /         
-  |    |   _,^-'/  /              
-  |    , ``  (\/  /_        
-   \,.->._    \X-=/^         
-   (  /   ``-._//^``  
-    ``Y-.____(__}              
-     |     {__)           
-           ()`` 
+base64 -d <<<"H4sIAJM2MVYAA1NQgAEDIIhHBsgCBmgAU8TAQJsL2SgU41AFiDALYRhUF8I0NAEUCbBZUB7MBGRrUXX
+g8DC6CagORwkYtDCDcw3IMwDdOBL1IyRRwpBI7cihTlSYkRRNUHcRnUZgXIQGIlOoOQC/4ufk0gIAAA==" | gunzip
 EOF`{{execute HOST1}}
