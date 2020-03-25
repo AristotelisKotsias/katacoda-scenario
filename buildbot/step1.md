@@ -6,7 +6,7 @@ If this does not work, please install Docker following the [appropriate installa
 This tutorial however assumes that you are running Ubuntu. Therefore you can install Docker by running `sudo apt-get update`{{execute HOST1}}
 Followed by `sudo apt-get install docker-ce docker-ce-cli containerd.io`{{execute HOST1}}
 
-`cat << "EOF" 
+`
 base64 -d <<<"H4sIAJM2MVYAA1NQgAEDIIhHBsgCBmgAU8TAQJsL2SgU41AFiDALYRhUF8I0NAEUCbBZUB7MBGRrUXX
 g8DC6CagORwkYtDCDcw3IMwDdOBL1IyRRwpBI7cihTlSYkRRNUHcRnUZgXIQGIlOoOQC/4ufk0gIAAA==" | gunzip
-EOF`{{execute HOST1}}
+`{{execute HOST1}}
