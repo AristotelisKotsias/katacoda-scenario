@@ -1,0 +1,1 @@
+Congratulations, you've completed this scenario dealing with how to initialize a BuildBot Docker image, as well as how to do a simple setup for your own Git repository.

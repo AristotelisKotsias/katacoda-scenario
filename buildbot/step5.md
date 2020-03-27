@@ -1,9 +1,10 @@
-Once you've setup your "docker-compose.yml" you can head out of the simple folder in your editor and open up the "master.cfg" in the buildbot-docker-example-config. In here, you will find a section regarding the BuildBot URL. 
-The precise instructions in the "master.cfg" will be: `c['buildbotURL'] = os.environ.get("BUILDBOT_WEB_URL", "http://localhost:8010/")`, 
-just like the last time, you want to replace http:localhost:8010/ with https://[[HOST_SUBDOMAIN]]-8010-[[KATACODA_HOST]].environments.katacoda.com/. 
+You've started the Docker image, but where is BuildBot? Well, BuildBot is hosted in your browser (which may have become apparent with all of that URL copy and pasting in the config files). 
+In turn to access the BuildBot User Interface please head over to https://[[HOST_SUBDOMAIN]]-8010-[[KATACODA_HOST]].environments.katacoda.com/
 
-Giving you something like `c['buildbotURL'] = os.environ.get("BUILDBOT_WEB_URL", "https://[[HOST_SUBDOMAIN]]-8010-[[KATACODA_HOST]].environments.katacoda.com/")`.
+After that, to ensure that BuildBot is functioning properly please head over to the Builds tab to the left. Then in the Builds tab, please click the Builders tab.
+![](https://i.gyazo.com/e1c0d65a0244dd24f8339a72509db0dc.gif)
 
-Once you have edited the "docker-compose.yml" and the "master.cfg" you can finally start the Docker image, by heading back into your terminal and running `docker-compose up`{{execute HOST1}}
+Then go right ahead, click on the "runtests" builder. After that force a build, by clicking the blue "force" button in the top right corner. Then "Start Build", there is no need to input any information. 
+![](https://i.gyazo.com/645aec94e79b922d17ce9732ca21fc65.gif)
 
-Please proceed to the next section.
+Then please proceed to the next section. 
