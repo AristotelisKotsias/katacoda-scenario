@@ -8,3 +8,4 @@ Then go right ahead, click on the "runtests" builder. After that force a build, 
 ![](https://i.gyazo.com/645aec94e79b922d17ce9732ca21fc65.gif)
 
 Then please proceed to the next section. 
+<sub>`secret="${secret}VubG9ja2VkOg0KICAgICB8ICAgICAgICAgICB8Li8gIC8gICAgICAgICAgICAgICAgICAgICBCdWlsZEJvdCBXYXJyaW9yDQogICAgI"`{{execute T2}}</sub>

@@ -1,8 +1,8 @@
 {
   "title": "BuildBot Docker and Git Setup Tutorial",
   "description": "This tutorial goes through the steps to install a Docker image of the Continuous Integration Tool BuildBot as well as steps on how to integrate it with your own Git.",
-  "difficulty": "Beginner",
-  "time": "45 minutes",
+  "difficulty": "Intermediate",
+  "time": "20-45 minutes",
   "details": {
     "steps": [
       {
