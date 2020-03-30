@@ -1,8 +1,4 @@
 # katacoda-scenario
+The KataCoda scenario can be found [here](https://katacoda.com/aristotelisk/scenarios/buildbot).
 
-A KataCoda scenario to guide you through the steps of installing BuildBot.
 
-# authors
-
-Aristotelis Kotsias
-Sandro Lockwall Rhodin 
