@@ -11,3 +11,5 @@ Compared to other continuous integration software such as Travis CI, BuildBot co
 
 This tutorial will help you understand how to setup the most basic features of BuildBot, inclduing how to use it with your own Git repository. 
 Every step also has secret text snippets hidden around the steps that when clicked, in order, will give you a reward. So make sure you read everything on every page.
+
+Note: This tutorial assumes that you have got Python 3 installed. 
